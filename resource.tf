@@ -1,4 +1,4 @@
-resource "null_resource" "1" {
+resource "null_resource" "alpha" {
   count = 1
   triggers = {
     key = "value ${count.index}"
